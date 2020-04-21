@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/pia-blipchat/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pia-blipchat/static/js/main.c0e63f64.chunk.js",
-    "main.js.map": "/pia-blipchat/static/js/main.c0e63f64.chunk.js.map",
+    "main.js": "/pia-blipchat/static/js/main.0627102b.chunk.js",
+    "main.js.map": "/pia-blipchat/static/js/main.0627102b.chunk.js.map",
     "runtime-main.js": "/pia-blipchat/static/js/runtime-main.7623c6ba.js",
     "runtime-main.js.map": "/pia-blipchat/static/js/runtime-main.7623c6ba.js.map",
-    "static/js/2.55afe5ea.chunk.js": "/pia-blipchat/static/js/2.55afe5ea.chunk.js",
-    "static/js/2.55afe5ea.chunk.js.map": "/pia-blipchat/static/js/2.55afe5ea.chunk.js.map",
+    "static/js/2.a45f7f97.chunk.js": "/pia-blipchat/static/js/2.a45f7f97.chunk.js",
+    "static/js/2.a45f7f97.chunk.js.map": "/pia-blipchat/static/js/2.a45f7f97.chunk.js.map",
     "index.html": "/pia-blipchat/index.html",
-    "precache-manifest.4f3db95e148dcf424378168a358edb08.js": "/pia-blipchat/precache-manifest.4f3db95e148dcf424378168a358edb08.js",
+    "precache-manifest.90fafe373d3d6e21ce14c1a1d2f14f19.js": "/pia-blipchat/precache-manifest.90fafe373d3d6e21ce14c1a1d2f14f19.js",
     "service-worker.js": "/pia-blipchat/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/pia-blipchat/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.55afe5ea.chunk.js.LICENSE.txt": "/pia-blipchat/static/js/2.55afe5ea.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/pia-blipchat/static/media/logo.5d5d9eef.svg"
+    "static/js/2.a45f7f97.chunk.js.LICENSE.txt": "/pia-blipchat/static/js/2.a45f7f97.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7623c6ba.js",
-    "static/js/2.55afe5ea.chunk.js",
+    "static/js/2.a45f7f97.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.c0e63f64.chunk.js"
+    "static/js/main.0627102b.chunk.js"
   ]
 }

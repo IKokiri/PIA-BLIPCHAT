@@ -1,4 +1,8 @@
 import React from 'react'
+import copy from '../copy.png'
+import home from '../home.png'
+import chat from '../chat.png'
+
 
 export const MenuDown = () =>{
     
@@ -6,13 +10,13 @@ export const MenuDown = () =>{
         <div className="fixed-bottom">            
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    Home
+                    <img src={home} alt="Tela incial" />
                 </li>
                 <li class="nav-item">
-                    Copiar
+                    <img src={copy} alt="Copiar" />
                 </li>
                 <li class="nav-item">
-                    Chat
+                <img src={chat} alt="Chat" />
                 </li>
             </ul>        
         </div>

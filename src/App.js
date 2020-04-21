@@ -9,9 +9,11 @@ import { MenuDown } from './components'
 function App() {
   return (
     <div className="App">
-      <AppKey></AppKey>
-      <Code></Code>
-      <MenuDown></MenuDown>      
+      <div className="container">
+        <AppKey></AppKey>
+        <Code></Code>
+        <MenuDown></MenuDown>      
+      </div>
     </div>
   );
 }

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pia-blipchat/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pia-blipchat/static/js/main.5a7d03b4.chunk.js",
-    "main.js.map": "/pia-blipchat/static/js/main.5a7d03b4.chunk.js.map",
+    "main.js": "/pia-blipchat/static/js/main.513e18cc.chunk.js",
+    "main.js.map": "/pia-blipchat/static/js/main.513e18cc.chunk.js.map",
     "runtime-main.js": "/pia-blipchat/static/js/runtime-main.7623c6ba.js",
     "runtime-main.js.map": "/pia-blipchat/static/js/runtime-main.7623c6ba.js.map",
     "static/js/2.a45f7f97.chunk.js": "/pia-blipchat/static/js/2.a45f7f97.chunk.js",
     "static/js/2.a45f7f97.chunk.js.map": "/pia-blipchat/static/js/2.a45f7f97.chunk.js.map",
     "index.html": "/pia-blipchat/index.html",
-    "precache-manifest.afd5f04107c89cedc499ee1630839204.js": "/pia-blipchat/precache-manifest.afd5f04107c89cedc499ee1630839204.js",
+    "precache-manifest.2b036ef5c15035c7ad117a41944717e2.js": "/pia-blipchat/precache-manifest.2b036ef5c15035c7ad117a41944717e2.js",
     "service-worker.js": "/pia-blipchat/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/pia-blipchat/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.a45f7f97.chunk.js.LICENSE.txt": "/pia-blipchat/static/js/2.a45f7f97.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7623c6ba.js",
     "static/js/2.a45f7f97.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.5a7d03b4.chunk.js"
+    "static/js/main.513e18cc.chunk.js"
   ]
 }

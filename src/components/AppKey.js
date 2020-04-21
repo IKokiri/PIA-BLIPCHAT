@@ -3,6 +3,8 @@ import React from 'react'
 export const AppKey = () =>{
     
     return(
-        <input type="text"/>
+        <div class="form-group">
+            <input type="text" class="form-control" id="appKey" aria-describedby="appKeyHelp">
+        </div>
     )
 }

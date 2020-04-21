@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pia-blipchat/precache-manifest.717c657418f95dcc95a22fa5900aa651.js"
+  "/pia-blipchat/precache-manifest.45069ea428d0962f1b0dece474966430.js"
 );
 
 self.addEventListener('message', (event) => {

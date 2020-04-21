@@ -6,13 +6,13 @@ export const MenuDown = () =>{
         <div className="fixed-bottom">            
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    Home
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Copiar</a>
+                    Copiar
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Chat</a>
+                    Chat
                 </li>
             </ul>        
         </div>

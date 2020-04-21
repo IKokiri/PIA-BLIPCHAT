@@ -27,7 +27,7 @@ jobs:
       run: |
       git config --global user.email ${{ secrets.GITHUBEMAIL }}
       git config --global user.name ${{ secrets.GITHUBUSERNAME }}
-      git remote set-url origin https://${{SECRETS.GITHUBPERSONALACCESSTOKEN}}@github.com/${{ secrets.GITHUBuUSERNAME }}/pia-blipchat>.git
+      git remote set-url origin https://${{SECRETS.GITHUBPERSONALACCESSTOKEN}}@github.com/${{ secrets.GITHUBUSERNAME }}/pia-blipchat>.git
       npm run deploy
     - run: npm ci
     - run: npm run build --if-present

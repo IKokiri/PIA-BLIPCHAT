@@ -4,6 +4,7 @@ export const ListColorBackground = () =>{
     
     return(
         <>
+            <h3>Background</h3>
             <div className="row">
                 <div className="col-md-4" style={{backgroundColor: "#000000"}}>&nbsp;</div>
                 <div className="col-md-4" style={{backgroundColor: "#6A5ACD"}}>&nbsp;</div>

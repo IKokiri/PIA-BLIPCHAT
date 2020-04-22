@@ -4,6 +4,8 @@ export const ListColorReicived = () =>{
     
     return(
         <>
+
+            <h3>Recebidas</h3>
             <div className="row">
                 <div className="col-md-4" style={{backgroundColor: "#000000"}}>&nbsp;</div>
                 <div className="col-md-4" style={{backgroundColor: "#6A5ACD"}}>&nbsp;</div>

@@ -20,13 +20,13 @@ function App() {
       <div className="container">
         <AppKey></AppKey>
         <ListColorChat></ListColorChat>
-        {/* <ListColorSend></ListColorSend> */}
-        {/* <ListColorReicived></ListColorReicived> */}
-        {/* <ListColorBackground></ListColorBackground> */}
-        {/* <ListColorHeader></ListColorHeader> */}
-        {/* <Code></Code> */}
+        <ListColorSend></ListColorSend>
+        <ListColorReicived></ListColorReicived>
+        <ListColorBackground></ListColorBackground>
+        <ListColorHeader></ListColorHeader>
+        <Code></Code>
         <MenuUp></MenuUp>  
-        {/* <MenuDown></MenuDown>       */}
+        <MenuDown></MenuDown>      
       </div>
     </div>
   );

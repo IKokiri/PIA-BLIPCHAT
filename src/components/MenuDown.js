@@ -8,19 +8,19 @@ export const MenuDown = () =>{
     
     return(
         <div className="fixed-bottom">            
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="https://google.com.br">    
+            <ul className="nav justify-content-center">
+                <li className="nav-item">
+                    <a className="nav-link active" href="/">    
                         <img src={home} alt="Tela incial" />
                     </a>                    
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="https://google.com.br">
+                <li className="nav-item">
+                    <a className="nav-link active" href="https://google.com.br">
                     <img src={copy} alt="Copiar" />
                     </a>                    
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="https://google.com.br">
+                <li className="nav-item">
+                    <a className="nav-link active" href="https://google.com.br">
                         <img src={chat} alt="Chat" />
                     </a>
                 </li>

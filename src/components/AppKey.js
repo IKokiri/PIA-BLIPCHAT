@@ -4,10 +4,10 @@ export const AppKey = () =>{
     
     return(
         <>
-            <div class="form-group">
-                <input type="text" class="form-control" id="appKey" aria-describedby="appKeyHelp" placeholder="APP KEY"/>
+            <div className="form-group">
+                <input type="text" className="form-control" id="appKey" aria-describedby="appKeyHelp" placeholder="APP KEY"/>
                 <p id="appKeyHelp">
-                    <small for="appKey">Inserir key do seu chat boot.</small>
+                    <small>Inserir key do seu chat boot.</small>
                 </p>
             </div>
         </>

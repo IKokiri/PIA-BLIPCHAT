@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Blip from './components/Blip'
 import { AppKey } from './components';
 import { Code } from './components';
 import { MenuDown } from './components';
@@ -29,9 +30,9 @@ function App() {
             <Route path="/Code" exact component={Code} />            
           </Switch>
         </Router> 
-      
-        <MenuUp></MenuUp>  
         <Code></Code>  
+        <Blip></Blip>
+        {/* <MenuUp></MenuUp>   */}
         <MenuDown></MenuDown>      
       </div>
     </div>

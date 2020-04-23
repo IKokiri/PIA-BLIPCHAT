@@ -32,7 +32,7 @@ function App() {
         </Router> 
         <Code></Code>  
         <Blip></Blip>
-        {/* <MenuUp></MenuUp>   */}
+        <MenuUp></MenuUp>  
         <MenuDown></MenuDown>      
       </div>
     </div>

@@ -13,8 +13,6 @@ import { ListColorReicived } from './components';
 import { ListColorChat } from './components';
 import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-
-
 function App() {
   return (
     <div className="App">
@@ -33,7 +31,7 @@ function App() {
         <Code></Code>  
         <Blip></Blip>
         <MenuUp></MenuUp>  
-        {/* <MenuDown></MenuDown>  */}
+        <MenuDown></MenuDown> 
         
       </div>
     </div>

@@ -33,7 +33,8 @@ function App() {
         <Code></Code>  
         <Blip></Blip>
         <MenuUp></MenuUp>  
-        <MenuDown></MenuDown>      
+        {/* <MenuDown></MenuDown>  */}
+        
       </div>
     </div>
   );

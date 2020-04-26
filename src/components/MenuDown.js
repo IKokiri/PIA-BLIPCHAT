@@ -8,9 +8,6 @@ export const MenuDown = () =>{
     return(
         <>
             {
-
-               
-
                 <div className="fixed-bottom">            
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
@@ -41,8 +38,6 @@ export const MenuDown = () =>{
                     
                     </ul>        
                 </div>
-
-
             }
         </>
         

@@ -26,7 +26,6 @@ const Blip = (props) =>{
 //   }
   // FAZ A CONSTRUÇÃO BÁSICA DO CHAT
   function build(){
-    console.log("build")
     appKey("cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy")
     withStyle()
     start()

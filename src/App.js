@@ -31,6 +31,7 @@ function App() {
         <Blip></Blip>
         <MenuUp></MenuUp>  
         <MenuDown></MenuDown> 
+        <ChatIcon></ChatIcon> 
         
       </div>
     </div>

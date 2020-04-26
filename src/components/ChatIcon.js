@@ -22,16 +22,22 @@ export const ChatIcon = () =>{
 
     function teste(){
 
-        // fetch('https://api.icons8.com/api/iconsets/search?term=car', {
-        //     method: 'get',
-        //     headers: {
-        //         'Access-Control-Allow-Origin' 'http://localhost:3000',
-        //         'Accept': 'application/json, text/plain, */*',
-        //         'Content-Type': 'application/json'
-        //     },
-        //     }).then(res=>res.json())
-        //     .then(res =>{
-        //         console.log(res);
-        //     });
+        fetch('https://api.iconfinder.com/v3/icons/search?query=trash', {
+            method: 'get',
+            headers: {
+                'Accept': 'application/json, text/plain, */*',
+                'Content-Type': 'application/json',
+                'grant_type':'jwt_bearer',
+                'client_secret': '6hqB2N4gkQ8OfzuSb0sETALds0izDnUbcSJUbRAeTyezu8PUVxuMiD3Qpdb4Vvxr',
+                'client_id': 'Yh8DUAY4PpPVQFnNVJrvdTR3T5xSMxDI8b25mXCy9OajXOU86DYXkw8YcSDa8bXQ',
+            },
+            }).then(res=>res.json())
+            .then(res =>{
+                console.log(res);
+            });
     }
 }
+
+// grant_type:'jwt_bearer',
+// 			client_id: 'INSERT_CLIENT_ID',
+// 			client_secret: 'INSERT_CLIENT_SECRET'

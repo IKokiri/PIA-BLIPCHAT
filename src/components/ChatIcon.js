@@ -22,16 +22,16 @@ export const ChatIcon = () =>{
 
     function teste(){
 
-        fetch('https://api.icons8.com/api/iconsets/search?term=car', {
-            method: 'get',
-            headers: {
-                'Access-Control-Allow-Origin' 'http://localhost:3000',
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json'
-            },
-            }).then(res=>res.json())
-            .then(res =>{
-                console.log(res);
-            });
+        // fetch('https://api.icons8.com/api/iconsets/search?term=car', {
+        //     method: 'get',
+        //     headers: {
+        //         'Access-Control-Allow-Origin' 'http://localhost:3000',
+        //         'Accept': 'application/json, text/plain, */*',
+        //         'Content-Type': 'application/json'
+        //     },
+        //     }).then(res=>res.json())
+        //     .then(res =>{
+        //         console.log(res);
+        //     });
     }
 }

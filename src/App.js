@@ -10,7 +10,7 @@ import { ListColorHeader } from './components';
 import { ListColorBackground } from './components';
 import { ListColorSend } from './components';
 import { ListColorReicived } from './components';
-import { ListColorChat } from './components';
+import { ChatIcon } from './components';
 import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

@@ -25,10 +25,9 @@ function App() {
             <Route path="/ListColorReicived" exact component={ListColorReicived} />
             <Route path="/ListColorBackground" exact component={ListColorBackground} />
             <Route path="/ListColorHeader" exact component={ListColorHeader} />
-            <Route path="/Code" exact component={Code} />            
+            <Route path="/" exact component={Code} />            
           </Switch>
         </Router> 
-        <Code></Code>  
         <Blip></Blip>
         <MenuUp></MenuUp>  
         <MenuDown></MenuDown> 

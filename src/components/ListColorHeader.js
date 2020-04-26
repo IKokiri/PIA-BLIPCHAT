@@ -5,18 +5,25 @@ export const ListColorHeader = () =>{
     return(
         <>
             <h3>Cabeçalho</h3>
-            <div className="row">
-                <div className="col-md-4" style={{backgroundColor: "#000000"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#6A5ACD"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#00FFFF"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#00FA9A"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#BDB76B"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#7B68EE"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#C71585"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#800000"}}>&nbsp;</div>
-                <div className="col-md-4" style={{backgroundColor: "#FFD700"}}>&nbsp;</div>
+            <div className="row colors container">
             </div>
-            
+           {loadColors()}
         </>
     )
+
+    function loadColors(){
+       let colors = "";
+
+        fetch('https://gist.githubusercontent.com/kawanet/a880c83f06d6baf742e45ac9ac52af96/raw/b4fbc9a730394eb977277e73cc37b60955463f21/material-colors.json', {
+            method: 'GET',
+            }).then(res=>res.json())
+            .then(res =>{
+                for ( let i in res){
+                    
+                    colors += '<div class="col-3"><button type="button" style="background-color: '+res[i]['900']+'" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;</button></div>'
+                    
+                }
+                document.querySelector(".colors").innerHTML = colors;
+            });
+    }
 }

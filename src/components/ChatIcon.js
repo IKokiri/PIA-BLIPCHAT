@@ -14,28 +14,13 @@ export const ChatIcon = () =>{
                     <small>Inserir o caminho da imagem para o icone do seu chat boot.</small>
                 </p>
             </div>
-            <button onClick={()=>teste()}>=)</button>
+            
             
         </>
 
     )
 
-    function teste(){
-
-        fetch('https://api.iconfinder.com/v3/icons/search?query=trash', {
-            method: 'get',
-            headers: {
-                'Accept': 'application/json, text/plain, */*',
-                'Content-Type': 'application/json',
-                'grant_type':'jwt_bearer',
-                'client_secret': '6hqB2N4gkQ8OfzuSb0sETALds0izDnUbcSJUbRAeTyezu8PUVxuMiD3Qpdb4Vvxr',
-                'client_id': 'Yh8DUAY4PpPVQFnNVJrvdTR3T5xSMxDI8b25mXCy9OajXOU86DYXkw8YcSDa8bXQ',
-            },
-            }).then(res=>res.json())
-            .then(res =>{
-                console.log(res);
-            });
-    }
+   
 }
 
 // grant_type:'jwt_bearer',

@@ -22,7 +22,3 @@ export const ChatIcon = () =>{
 
    
 }
-
-// grant_type:'jwt_bearer',
-// 			client_id: 'INSERT_CLIENT_ID',
-// 			client_secret: 'INSERT_CLIENT_SECRET'

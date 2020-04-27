@@ -22,7 +22,7 @@ function App() {
       <Blip></Blip>     
       <Router>
           <Switch>  
-            <Route path="/ChatIcon" exact component={ChatIcon} />
+            <Route path="/pia-blipchat/ChatIcon" exact component={ChatIcon} />
             <Route path="/ListColorSend" exact component={ListColorSend} />
             <Route path="/ListColorReicived" exact component={ListColorReicived} />
             <Route path="/ListColorBackground" exact component={ListColorBackground} />

@@ -21,12 +21,12 @@ const Blip = (props) =>{
     blipClient.withCustomStyle("")
   }
 
-//   function stop(){
-//     blipClient.destroy();
-//   }
+  function stop(){
+    blipClient.destroy();
+  }
   // FAZ A CONSTRUÇÃO BÁSICA DO CHAT
   function build(){
-    appKey("cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy")
+    appKey('cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy')
     withStyle()
     start()
     toogle()
@@ -43,7 +43,9 @@ const Blip = (props) =>{
   return(
     // cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy
     <> 
-      {build()}
+      <button onClick={()=>build()}>V</button>
+      <button onClick={()=>stop()}>X</button>
+      
     </>
   )
 }

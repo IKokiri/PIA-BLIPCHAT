@@ -17,7 +17,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <AppKey></AppKey>        
+      <AppKey></AppKey>   
+      
+      <Blip></Blip>     
       <Router>
           <Switch>  
             <Route path="/ChatIcon" exact component={ChatIcon} />
@@ -28,7 +30,6 @@ function App() {
             <Route path="/" exact component={Code} />            
           </Switch>
         </Router> 
-        <Blip></Blip>
         <MenuUp></MenuUp>  
         <MenuDown></MenuDown> 
         

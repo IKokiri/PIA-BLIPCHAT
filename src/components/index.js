@@ -8,5 +8,7 @@ export { ListColorSend } from "./ListColorSend";
 export { ListColorReicived } from "./ListColorReicived";
 export { ChatIcon } from "./ChatIcon";
 
+export { Colors } from "./Colors";
+
 
 

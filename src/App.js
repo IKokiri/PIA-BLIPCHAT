@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blip from './components/Blip'
 import { AppKey } from './components';
-import { Code } from './components';
+// import { Code } from './components';
 import { MenuDown } from './components';
 import { MenuUp } from './components';
 import { ListColorHeader } from './components';
@@ -22,12 +22,11 @@ function App() {
       <Blip></Blip>     
       <Router>
           <Switch>  
-            <Route path="/pia-blipchat/ChatIcon" exact component={ChatIcon} />
+            <Route path="/ChatIcon" exact component={ChatIcon} />
             <Route path="/ListColorSend" exact component={ListColorSend} />
             <Route path="/ListColorReicived" exact component={ListColorReicived} />
             <Route path="/ListColorBackground" exact component={ListColorBackground} />
-            <Route path="/ListColorHeader" exact component={ListColorHeader} />
-            <Route path="/" exact component={Code} />            
+            <Route path="/ListColorHeader" exact component={ListColorHeader} />         
           </Switch>
         </Router> 
         <MenuUp></MenuUp>  

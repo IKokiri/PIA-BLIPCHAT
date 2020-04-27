@@ -18,7 +18,18 @@ const Blip = (props) =>{
   }
   
   function withStyle(){
-    blipClient.withCustomStyle("")
+    blipClient.withCustomStyle(`
+      #blip-chat-header {background-color: black ! important}
+      div.bubble.right {background-color: black ! important}
+      div.bubble.left {background-color: black ! important}
+      #messages-list {background-color: black ! important}  
+    `)
+  }
+  function withButton(){
+    blipClient.withButton({
+      icon:
+        localStorage.getItem("withButton"),
+    })
   }
 
   function stop(){
@@ -26,19 +37,16 @@ const Blip = (props) =>{
   }
   // FAZ A CONSTRUÇÃO BÁSICA DO CHAT
   function build(){
-    appKey('cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy')
+    
+    let key = localStorage.getItem('appKey');
+    key = 'cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy'
+    appKey(key)
     withStyle()
+    withButton()
     start()
     toogle()
   }
-  //FAZ A RECONSTRUÇÃO DO CHAT
-//   function rebuild(){
-  
-//       withStyle()
-//       start()
 
-    
-//   }
 
   return(
     // cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy

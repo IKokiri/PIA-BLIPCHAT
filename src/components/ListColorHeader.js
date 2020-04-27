@@ -20,10 +20,11 @@ export const ListColorHeader = () =>{
             .then(res =>{
                 for ( let i in res){
                     
-                    colors += '<div class="col-3"><button type="button" style="background-color: '+res[i]['900']+'" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;</button></div>'
+                    colors += '<div class="col-3"><button style="background-color: '+res[i]['900']+'" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;</button></div>'
                     
                 }
                 document.querySelector(".colors").innerHTML = colors;
             });
     }
+
 }

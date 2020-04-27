@@ -14,9 +14,7 @@ import { ChatIcon } from './components';
 import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
-  localStorage.setItem('appKey', '');
-  localStorage.setItem('withStyle', '');
-  localStorage.setItem('withButton', '');
+  
   return (
     <div className="App">
       <div className="container">

@@ -30,13 +30,12 @@ function App() {
             
           </Switch>
 
-        <Link to="/ChatIcon">asd</Link>
+          <MenuUp></MenuUp>  
+        <MenuDown></MenuDown> 
         </Router> 
       <AppKey></AppKey>   
       <Blip></Blip>   
         <Code></Code>
-        <MenuUp></MenuUp>  
-        <MenuDown></MenuDown> 
       
       </div>
     </div>

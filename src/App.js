@@ -20,6 +20,7 @@ function App() {
       
       <div className="container">  
       
+      <AppKey></AppKey> 
       <Router>
           <Switch>  
             <Route path="/ChatIcon" exact component={ChatIcon} />
@@ -32,8 +33,7 @@ function App() {
 
           <MenuUp></MenuUp>  
         <MenuDown></MenuDown> 
-        </Router> 
-      <AppKey></AppKey>   
+        </Router>   
       <Blip></Blip>   
         <Code></Code>
       

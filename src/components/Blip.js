@@ -106,8 +106,8 @@ const Blip = (props) =>{
   return(
     // cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy
     <> 
-      <button onClick={()=>build()}>V</button>
-      <button onClick={()=>stop()}>X</button>
+      <button onClick={()=>build()}>Criar</button>
+      <button onClick={()=>stop()}>Fechar</button>
       
     </>
   )

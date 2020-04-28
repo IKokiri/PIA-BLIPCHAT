@@ -3,6 +3,7 @@ import {Colors} from "../components"
 import { Color  } from '../api/Color';
 
 export const ListColorHeader = () =>{
+ 
     const [colors, setColors] = useState([]);
 
     function startUp(){
@@ -11,7 +12,7 @@ export const ListColorHeader = () =>{
         
         c.then(
             function(data){
-                setColors(data.schemes[0].colors);
+                setColors(data);
                 
             }
         )
@@ -19,13 +20,18 @@ export const ListColorHeader = () =>{
     useEffect(() => startUp(),[])
     
     return(
+        
         <>
             <h3>Cabeçalho</h3>
             <div className="row colors container">
             </div>
+            
+           {
            
-           {colors.map(color=>
-               <Colors color={color} key={color} local="header"></Colors> 
+           colors.map(color=>
+                    
+               <Colors color={color.hexString} key={color.colorId} local="header"></Colors>
+               
             )}
         </>
     )

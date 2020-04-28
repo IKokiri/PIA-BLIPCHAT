@@ -7,7 +7,7 @@ export class Color {
         var colors;
         
         return new Promise((resolve, reject) => {
-            fetch('http://www.colr.org/json/scheme/latest', {
+            fetch('https://jonasjacek.github.io/colors/data.json', {
             method: 'GET',
             }).then(res=>res.json())
             .then(res =>{

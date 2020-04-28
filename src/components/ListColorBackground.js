@@ -11,7 +11,7 @@ export const ListColorBackground = () =>{
         
         c.then(
             function(data){
-                setColors(data.schemes[0].colors);
+                setColors(data);
                 
             }
         )
@@ -19,13 +19,17 @@ export const ListColorBackground = () =>{
     useEffect(() => startUp(),[])
     
     return(
+        
         <>
             <h3>Background</h3>
             <div className="row colors container">
             </div>
+            
+           {
            
-           {colors.map(color=>
-               <Colors color={color} key={color} local="background"></Colors> 
+           colors.map(color=>
+                    
+               <Colors color={color.hexString} key={color.colorId} local="background"></Colors> 
             )}
         </>
     )

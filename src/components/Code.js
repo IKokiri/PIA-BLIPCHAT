@@ -5,7 +5,7 @@ export const Code = () =>{
     return(
         <div>
             <div className="form-group">
-    <textarea readOnly className="form-control" id="codeArea" rows="3" value={localStorage.getItem("code")}>{localStorage.getItem("code")}</textarea>
+    
                 <div>            
                     <br/>
                     <ul className="nav justify-content-center">                        
@@ -18,6 +18,7 @@ export const Code = () =>{
                     </ul>        
                 </div>
             </div>
+            <textarea readOnly className="form-control" id="codeArea" rows="3" value={localStorage.getItem("code")}>{localStorage.getItem("code")}</textarea>
         </div>
     )
     function copyCode(){

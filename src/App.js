@@ -20,6 +20,9 @@ function App() {
       
       <div className="container">  
       
+      <AppKey></AppKey>   
+      <Blip></Blip>   
+        <Code></Code>
       <Router>
           <Switch>  
             <Route path="/ChatIcon" exact component={ChatIcon} />
@@ -28,14 +31,12 @@ function App() {
             <Route path="/ListColorBackground" exact component={ListColorBackground} />
             <Route path="/ListColorHeader" exact component={ListColorHeader} />         
             
-        <Link to="/ChatIcon">asd</Link>
+        
           </Switch>
+
+          <MenuUp></MenuUp>  
+           <MenuDown></MenuDown> 
         </Router> 
-      <AppKey></AppKey>   
-      <Blip></Blip>   
-        <Code></Code>
-        <MenuUp></MenuUp>  
-        <MenuDown></MenuDown> 
       
       </div>
     </div>

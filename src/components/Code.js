@@ -22,6 +22,7 @@ export const Code = () =>{
         </div>
     )
     function copyCode(){
+        document.querySelector("#codeArea").value = localStorage.getItem("code")
        let copyText = document.getElementById("codeArea");
         copyText.select();
         if(copyText.value){

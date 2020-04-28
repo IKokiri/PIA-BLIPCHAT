@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4cb6d022906e07e7b49ba09cd23705e",
+    "revision": "16f892854c78cb142df7ab05a5041f64",
     "url": "/pia-blipchat/index.html"
   },
   {
-    "revision": "79c50dae43953c898556",
+    "revision": "9abb71bbfe50e3f13497",
     "url": "/pia-blipchat/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "bb5b63ab3d589fa0f805",
+    "revision": "703e00b9bb30bdca180a",
     "url": "/pia-blipchat/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "79c50dae43953c898556",
-    "url": "/pia-blipchat/static/js/2.a8109f56.chunk.js"
+    "revision": "9abb71bbfe50e3f13497",
+    "url": "/pia-blipchat/static/js/2.6f53f5c1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/pia-blipchat/static/js/2.a8109f56.chunk.js.LICENSE.txt"
+    "url": "/pia-blipchat/static/js/2.6f53f5c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb5b63ab3d589fa0f805",
-    "url": "/pia-blipchat/static/js/main.a1ca04a0.chunk.js"
+    "revision": "703e00b9bb30bdca180a",
+    "url": "/pia-blipchat/static/js/main.cf7caac8.chunk.js"
   },
   {
     "revision": "e297fb5a847a270e6b92",

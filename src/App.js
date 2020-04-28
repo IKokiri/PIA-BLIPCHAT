@@ -11,17 +11,14 @@ import { ListColorBackground } from './components';
 import { ListColorSend } from './components';
 import { ListColorReicived } from './components';
 import { ChatIcon } from './components';
-import {  BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {  BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
   
   return (
     <div className="App">
       
-      <div className="container">
-      <AppKey></AppKey>   
-      
-      <Blip></Blip>     
+      <div className="container">  
       
       <Router>
           <Switch>  
@@ -33,6 +30,8 @@ function App() {
             
           </Switch>
         </Router> 
+      <AppKey></AppKey>   
+      <Blip></Blip>   
         <Code></Code>
         <MenuUp></MenuUp>  
         <MenuDown></MenuDown> 

@@ -58,8 +58,6 @@ export const MenuUp = () =>{
                         </li>
                     </ul>    
                 </div>
-
-
             }
         
         </>

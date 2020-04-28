@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Blip from './components/Blip'
 import { AppKey } from './components';
 import { Code } from './components';
-import { MenuDown } from './components';
-import { MenuUp } from './components';
+// import { MenuDown } from './components';
+// import { MenuUp } from './components';
 import { ListColorHeader } from './components';
 import { ListColorBackground } from './components';
 import { ListColorSend } from './components';
@@ -33,9 +33,9 @@ function App() {
           </Switch>
         </Router> 
         <Code></Code>
-        <MenuUp></MenuUp>  
-        <MenuDown></MenuDown> 
-        
+        {/* <MenuUp></MenuUp>  
+        <MenuDown></MenuDown>  */}
+        <a href="/ListColorHeader">a</a>
       </div>
     </div>
   );

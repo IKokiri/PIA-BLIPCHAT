@@ -43,8 +43,10 @@ const Blip = (props) =>{
         style+= '#messages-list {background-color: '+withS[i]+' ! important} '
       }
     }
-    console.log(style)
+    
     blipClient.withCustomStyle(style)
+
+    return style;
     }
     
   }
@@ -58,15 +60,46 @@ const Blip = (props) =>{
   function stop(){
     blipClient.destroy();
   }
+  function code(ws,wk,wb){
+      localStorage.setItem("code",(`<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+      </script>
+      <script>
+          (function () {
+              window.onload = function () {
+                  new BlipChat()
+                  .withAppKey("`+wk+`")
+                  .withButton({"icon":"`+wb+`"})
+                  .withCustomStyle("`+ws+`")
+                  .withCustomCommonUrl("https://chat.blip.ai")
+                  .build();
+              }
+          })();
+      </script>`))
+  }
   // FAZ A CONSTRUÇÃO BÁSICA DO CHAT
   function build(){
-    
+    //withStyle
+    let ws ="";
+    //with button
+    let wb ="";
+    //with key
+    let wk ="";
+
+
     let key = localStorage.getItem('appKey');
+    
     appKey(key)
-    withStyle()
+    ws = withStyle()
     withButton()
     start()
     toogle()
+
+    wk = key
+    wb = localStorage.getItem("withButton");
+    
+
+    code(ws,wk,wb)
+    
   }
 
 

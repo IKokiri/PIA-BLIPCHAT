@@ -18,12 +18,35 @@ const Blip = (props) =>{
   }
   
   function withStyle(){
-    blipClient.withCustomStyle(`
-      #blip-chat-header {background-color: black ! important}
-      div.bubble.right {background-color: black ! important}
-      div.bubble.left {background-color: black ! important}
-      #messages-list {background-color: black ! important}  
-    `)
+
+    let withS = localStorage.getItem("withStyle");
+    
+    if(withS !== null){
+      withS = withS.substring(0,(withS.length - 1));
+    
+    withS = "{"+withS+"}";
+    withS = JSON.parse(withS)
+    
+    let style="";
+    for(let i in withS){
+      
+      if (i === "header"){
+        style+= '#blip-chat-header {background-color: '+withS[i]+' ! important} '
+      }
+      if (i === "enviadas"){
+        style+= 'div.bubble.right {background-color: '+withS[i]+' ! important} '
+      }
+      if (i === "recebidas"){
+        style+= 'div.bubble.left {background-color: '+withS[i]+' ! important} '
+      }
+      if (i === "background"){
+        style+= '#messages-list {background-color: '+withS[i]+' ! important} '
+      }
+    }
+    console.log(style)
+    blipClient.withCustomStyle(style)
+    }
+    
   }
   function withButton(){
     blipClient.withButton({
@@ -39,7 +62,6 @@ const Blip = (props) =>{
   function build(){
     
     let key = localStorage.getItem('appKey');
-    key = 'cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy'
     appKey(key)
     withStyle()
     withButton()

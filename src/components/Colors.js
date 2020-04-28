@@ -11,8 +11,8 @@ export const Colors = props =>{
     )
    
     function addColor(color,local){
-     let strg = localStorage.getItem("withStyle");      
-     strg += "{'local':"+local+",'color:'#"+color+"},"
+     let strg = (localStorage.getItem("withStyle")) === null? "":localStorage.getItem("withStyle");      
+     strg += '"'+local+'"'+":"+'"#'+color+'",'
      localStorage.setItem("withStyle",strg);      
     }
 }

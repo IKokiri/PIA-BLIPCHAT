@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6adee2c85c85d0f0c03abfa66a63e072",
+    "revision": "c75bb971b17d197cecd348087228190d",
     "url": "/pia-blipchat/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pia-blipchat/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "360ef07fa5561002c5d3",
+    "revision": "911828a4d6d19314c06e",
     "url": "/pia-blipchat/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pia-blipchat/static/js/2.7239e16e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "360ef07fa5561002c5d3",
-    "url": "/pia-blipchat/static/js/main.8d3ccb05.chunk.js"
+    "revision": "911828a4d6d19314c06e",
+    "url": "/pia-blipchat/static/js/main.fe503ea5.chunk.js"
   },
   {
     "revision": "e297fb5a847a270e6b92",

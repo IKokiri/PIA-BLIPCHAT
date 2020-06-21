@@ -35,5 +35,6 @@ export class Custom {
         fetch('http://localhost:3000/'+json, requestOptions)
             .then(response => response.json())
             .then(data => this.setState());
+            
     }
 }

@@ -11,13 +11,18 @@ import { ListColorBackground } from "./components";
 import { ListColorSend } from "./components";
 import { ListColorReicived } from "./components";
 import { ChatIcon } from "./components";
+import { LastCustom } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+
   return (
     <div className="App">
       <div className="container">
         <AppKey />
+
+        <Blip />
+        <Code />
         <Router>
           <Switch>
             <Route path="/ChatIcon" exact component={ChatIcon} />
@@ -34,12 +39,11 @@ function App() {
             />
             <Route path="/ListColorHeader" exact component={ListColorHeader} />
           </Switch>
-
+          
+          <LastCustom />
           <MenuUp />
           <MenuDown />
         </Router>
-        <Blip />
-        <Code />
       </div>
     </div>
   );

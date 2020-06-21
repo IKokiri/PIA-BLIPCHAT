@@ -58,7 +58,12 @@ const Blip = (props) =>{
   }
 
   function stop(){
-    blipClient.destroy();
+    try{
+
+      blipClient.destroy();
+    } catch (error) {
+     alert("Chat não Cosntruido!");
+    }
   }
   function code(ws,wk,wb){
       localStorage.setItem("code",(`<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
@@ -106,9 +111,16 @@ const Blip = (props) =>{
   return(
     // cm9iaW46ZjhjZDMxNmEtZTg5Ni00ZDE2LWFmODMtMjg4N2NiNGMxYjQy
     <> 
-      <button onClick={()=>build()}>Criar</button>
-      <button onClick={()=>stop()}>Fechar</button>
-      
+      <br/>
+      <div className="btn-group btn-group-toggle" data-toggle="buttons">
+      <label className="btn btn-secondary">
+        <input type="radio" onClick={()=>build()} name="options" id="option1" autoComplete="off"/> Build
+      </label>
+      <label className="btn btn-secondary">
+        <input type="radio" onClick={()=>stop()} name="options" id="option3" autoComplete="off"/> Destroy
+      </label>
+    </div>
+      <br/><br/>
     </>
   )
 }

@@ -7,6 +7,7 @@ export { ListColorBackground } from "./ListColorBackground";
 export { ListColorSend } from "./ListColorSend";
 export { ListColorReicived } from "./ListColorReicived";
 export { ChatIcon } from "./ChatIcon";
+export { LastCustom } from "./LastCustom";
 
 export { Colors } from "./Colors";
 

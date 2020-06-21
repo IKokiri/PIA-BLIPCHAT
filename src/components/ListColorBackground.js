@@ -12,7 +12,6 @@ export const ListColorBackground = () =>{
         c.then(
             function(data){
                 setColors(data);
-                
             }
         )
     }
@@ -28,7 +27,6 @@ export const ListColorBackground = () =>{
            {
            
            colors.map(color=>
-                    
                <Colors color={color.hexString} key={color.colorId} local="background"></Colors> 
             )}
         </>

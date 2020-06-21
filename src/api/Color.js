@@ -11,9 +11,11 @@ export class Color {
             method: 'GET',
             }).then(res=>res.json())
             .then(res =>{
+                
                 colors = res
                 if (colors) {
                     resolve(colors);
+                    
                 } else {
                     reject();
                 }

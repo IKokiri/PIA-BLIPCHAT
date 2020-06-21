@@ -7,7 +7,7 @@ export class Custom {
         var custom;
         
         return new Promise((resolve, reject) => {
-            fetch('http://localhost:3000/', {
+            fetch('https://pia-blipchat-be.herokuapp.com/', {
             method: 'GET',
             }).then(res=>res.json())
             .then(res =>{
@@ -21,6 +21,24 @@ export class Custom {
         });
     }
 
+    static getId(id) {
+
+        var custom;
+        
+        return new Promise((resolve, reject) => {
+            fetch('https://pia-blipchat-be.herokuapp.com/'+id, {
+            method: 'GET',
+            }).then(res=>res.json())
+            .then(res =>{
+                custom = res
+                if (custom) {
+                    resolve(custom);
+                } else {
+                    reject();   
+                }
+            });
+        });
+    }
 
     static setCustom(json) {
 
@@ -32,7 +50,7 @@ export class Custom {
             },
             // body: JSON.stringify(json)
         };
-        fetch('http://localhost:3000/'+json, requestOptions)
+        fetch('https://pia-blipchat-be.herokuapp.com/'+json, requestOptions)
             .then(response => response.json())
             .then(data => this.setState());
             

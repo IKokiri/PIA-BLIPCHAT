@@ -38,7 +38,6 @@ export const Code = () =>{
     }
 
     function share(){
-        let barra = "/"
         let wss = localStorage.getItem("withStyle").replace(/#/g, "@@");
         let wbs = localStorage.getItem("withButton").replace(/\//g, "@@");
         Custom.setCustom(wss+'/'+wbs)
